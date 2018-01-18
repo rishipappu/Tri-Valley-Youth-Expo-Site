@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Elianto-Regular';
+  src: url('Elianto-Regular.eot');
+  src: url('Elianto-Regular.woff2') format('woff2'),
+       url('Elianto-Regular.woff') format('woff'),
+       url('Elianto-Regular.ttf') format('truetype'),
+       url('Elianto-Regular.svg#Elianto-Regular') format('svg'),
+       url('Elianto-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Aleo-Bold';
+  src: url('Aleo-Bold.woff') format('woff'),
+       url('Aleo-Bold.ttf') format('truetype'),
+       url('Aleo-Bold.svg#Aleo-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'aleo-bold-webfont';
+  src: url('aleo-bold-webfont.eot');
+  src: url('aleo-bold-webfont.woff2') format('woff2'),
+       url('aleo-bold-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

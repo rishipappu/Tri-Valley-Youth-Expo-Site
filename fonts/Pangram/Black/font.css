@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Pangram-Black';
+  src: url('Pangram-Black.eot');
+  src: url('Pangram-Black.woff2') format('woff2'),
+       url('Pangram-Black.woff') format('woff'),
+       url('Pangram-Black.ttf') format('truetype'),
+       url('Pangram-Black.svg#Pangram-Black') format('svg'),
+       url('Pangram-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

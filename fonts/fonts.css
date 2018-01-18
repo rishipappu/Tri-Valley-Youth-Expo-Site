@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'Ailerons';
+    src: url('./Ailerons/Ailerons-Regular.eot');
+    src: url('./Ailerons/Ailerons-Regular.woff2') format('woff2'),
+    url('./Ailerons/Ailerons-Regular.woff') format('woff'),
+    url('./Ailerons/Ailerons-Regular.ttf') format('truetype'),
+    url('./Ailerons/Ailerons-Regular.svg#Ailerons-Regular') format('svg'),
+    url('./Ailerons/Ailerons-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aleo-Bold';
+    src: url('./Aleo/Bold/Aleo-Bold.woff') format('woff'),
+    url('./Aleo/Bold/Aleo-Bold.ttf') format('truetype'),
+    url('./Aleo/Bold/Aleo-Bold.svg#Aleo-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aleo-bold-webfont';
+    src: url('./Aleo/Bold/aleo-bold-webfont.eot');
+    src: url('./Aleo/Bold/aleo-bold-webfont.woff2') format('woff2'),
+    url('./Aleo/Bold/aleo-bold-webfont.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aleo-Light';
+    src: url('./Aleo/Light/Aleo-Light.eot');
+    src: url('./Aleo/Light/Aleo-Light.woff2') format('woff2'),
+    url('./Aleo/Light/Aleo-Light.woff') format('woff'),
+    url('./Aleo/Light/Aleo-Light.ttf') format('truetype'),
+    url('./Aleo/Light/Aleo-Light.svg#Aleo-Light') format('svg'),
+    url('./Aleo/Light/Aleo-Light.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('./Aleo/Regular/Aleo-Regular.eot');
+    src: url('./Aleo/Regular/Aleo-Regular.woff2') format('woff2'),
+    url('./Aleo/Regular/Aleo-Regular.woff') format('woff'),
+    url('./Aleo/Regular/Aleo-Regular.ttf') format('truetype'),
+    url('./Aleo/Regular/Aleo-Regular.svg#Aleo-Regular') format('svg'),
+    url('./Aleo/Regular/Aleo-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Anurati';
+    src: url('./Anurati/Anurati-Regular.eot');
+    src: url('./Anurati/Anurati-Regular.woff2') format('woff2'),
+    url('./Anurati/Anurati-Regular.woff') format('woff'),
+    url('./Anurati/Anurati-Regular.ttf') format('truetype'),
+    url('./Anurati/Anurati-Regular.svg#Anurati-Regular') format('svg'),
+    url('./Anurati/Anurati-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aquatico';
+    src: url('./Aquatico/Aquatico-Regular.eot');
+    src: url('./Aquatico/Aquatico-Regular.woff2') format('woff2'),
+    url('./Aquatico/Aquatico-Regular.woff') format('woff'),
+    url('./Aquatico/Aquatico-Regular.ttf') format('truetype'),
+    url('./Aquatico/Aquatico-Regular.svg#Aquatico-Regular') format('svg'),
+    url('./Aquatico/Aquatico-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Argon';
+    src: url('./Argon/ArgonPERSONAL-Regular.eot');
+    src: url('./Argon/ArgonPERSONAL-Regular.woff2') format('woff2'),
+    url('./Argon/ArgonPERSONAL-Regular.woff') format('woff'),
+    url('./Argon/ArgonPERSONAL-Regular.ttf') format('truetype'),
+    url('./Argon/ArgonPERSONAL-Regular.svg#ArgonPERSONAL-Regular') format('svg'),
+    url('./Argon/ArgonPERSONAL-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cheque';
+    src: url('./Cheque/Cheque-Regular.eot');
+    src: url('./Cheque/Cheque-Regular.woff2') format('woff2'),
+    url('./Cheque/Cheque-Regular.woff') format('woff'),
+    url('./Cheque/Cheque-Regular.ttf') format('truetype'),
+    url('./Cheque/Cheque-Regular.svg#Cheque-Regular') format('svg'),
+    url('./Cheque/Cheque-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Code-Bold';
+    src: url('./Code/Code-Bold.eot');
+    src: url('./Code/Code-Bold.woff2') format('woff2'),
+    url('./Code/Code-Bold.woff') format('woff'),
+    url('./Code/Code-Bold.ttf') format('truetype'),
+    url('./Code/Code-Bold.svg#Code-Bold') format('svg'),
+    url('./Code/Code-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Code-Light';
+    src: url('./Code/Code-Light.eot');
+    src: url('./Code/Code-Light.woff2') format('woff2'),
+    url('./Code/Code-Light.woff') format('woff'),
+    url('./Code/Code-Light.ttf') format('truetype'),
+    url('./Code/Code-Light.svg#Code-Light') format('svg'),
+    url('./Code/Code-Light.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Elianto';
+    src: url('./Elianto/Elianto-Regular.eot');
+    src: url('./Elianto/Elianto-Regular.woff2') format('woff2'),
+    url('./Elianto/Elianto-Regular.woff') format('woff'),
+    url('./Elianto/Elianto-Regular.ttf') format('truetype'),
+    url('./Elianto/Elianto-Regular.svg#Elianto-Regular') format('svg'),
+    url('./Elianto/Elianto-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kiona';
+    src: url('./Kiona/Kiona-Regular.eot');
+    src: url('./Kiona/Kiona-Regular.woff2') format('woff2'),
+    url('./Kiona/Kiona-Regular.woff') format('woff'),
+    url('./Kiona/Kiona-Regular.ttf') format('truetype'),
+    url('./Kiona/Kiona-Regular.svg#Kiona-Regular') format('svg'),
+    url('./Kiona/Kiona-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Luxia-Display';
+    src: url('./Luxia/Display/Luxia-Display.eot');
+    src: url('./Luxia/Display/Luxia-Display.woff2') format('woff2'),
+    url('./Luxia/Display/Luxia-Display.woff') format('woff'),
+    url('./Luxia/Display/Luxia-Display.ttf') format('truetype'),
+    url('./Luxia/Display/Luxia-Display.svg#Luxia-Display') format('svg'),
+    url('./Luxia/Display/Luxia-Display.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Luxia';
+    src: url('./Luxia/Regular/Luxia-Regular.eot');
+    src: url('./Luxia/Regular/Luxia-Regular.woff2') format('woff2'),
+    url('./Luxia/Regular/Luxia-Regular.woff') format('woff'),
+    url('./Luxia/Regular/Luxia-Regular.ttf') format('truetype'),
+    url('./Luxia/Regular/Luxia-Regular.svg#Luxia-Regular') format('svg'),
+    url('./Luxia/Regular/Luxia-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Moon';
+    src: url('./Moon/Moon-Light.eot');
+    src: url('./Moon/Moon-Light.woff2') format('woff2'),
+    url('./Moon/Moon-Light.woff') format('woff'),
+    url('./Moon/Moon-Light.ttf') format('truetype'),
+    url('./Moon/Moon-Light.svg#Moon-Light') format('svg'),
+    url('./Moon/Moon-Light.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram-Black';
+    src: url('./Pangram/Black/Pangram-Black.eot');
+    src: url('./Pangram/Black/Pangram-Black.woff2') format('woff2'),
+    url('./Pangram/Black/Pangram-Black.woff') format('woff'),
+    url('./Pangram/Black/Pangram-Black.ttf') format('truetype'),
+    url('./Pangram/Black/Pangram-Black.svg#Pangram-Black') format('svg'),
+    url('./Pangram/Black/Pangram-Black.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram-Bold';
+    src: url('./Pangram/Bold/Pangram-Bold.eot');
+    src: url('./Pangram/Bold/Pangram-Bold.woff2') format('woff2'),
+    url('./Pangram/Bold/Pangram-Bold.woff') format('woff'),
+    url('./Pangram/Bold/Pangram-Bold.ttf') format('truetype'),
+    url('./Pangram/Bold/Pangram-Bold.svg#Pangram-Bold') format('svg'),
+    url('./Pangram/Bold/Pangram-Bold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram-ExtraBold';
+    src: url('./Pangram/Extra-Bold/Pangram-ExtraBold.eot');
+    src: url('./Pangram/Extra-Bold/Pangram-ExtraBold.woff2') format('woff2'),
+    url('./Pangram/Extra-Bold/Pangram-ExtraBold.woff') format('woff'),
+    url('./Pangram/Extra-Bold/Pangram-ExtraBold.ttf') format('truetype'),
+    url('./Pangram/Extra-Bold/Pangram-ExtraBold.svg#Pangram-ExtraBold') format('svg'),
+    url('./Pangram/Extra-Bold/Pangram-ExtraBold.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram-ExtraLight';
+    src: url('./Pangram/Extra-Light/Pangram-ExtraLight.eot');
+    src: url('./Pangram/Extra-Light/Pangram-ExtraLight.woff2') format('woff2'),
+    url('./Pangram/Extra-Light/Pangram-ExtraLight.woff') format('woff'),
+    url('./Pangram/Extra-Light/Pangram-ExtraLight.ttf') format('truetype'),
+    url('./Pangram/Extra-Light/Pangram-ExtraLight.svg#Pangram-ExtraLight') format('svg'),
+    url('./Pangram/Extra-Light/Pangram-ExtraLight.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram-Light';
+    src: url('./Pangram/Light/Pangram-Light.eot');
+    src: url('./Pangram/Light/Pangram-Light.woff2') format('woff2'),
+    url('./Pangram/Light/Pangram-Light.woff') format('woff'),
+    url('./Pangram/Light/Pangram-Light.ttf') format('truetype'),
+    url('./Pangram/Light/Pangram-Light.svg#Pangram-Light') format('svg'),
+    url('./Pangram/Light/Pangram-Light.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram-Medium';
+    src: url('./Pangram/Medium/Pangram-Medium.eot');
+    src: url('./Pangram/Medium/Pangram-Medium.woff2') format('woff2'),
+    url('./Pangram/Medium/Pangram-Medium.woff') format('woff'),
+    url('./Pangram/Medium/Pangram-Medium.ttf') format('truetype'),
+    url('./Pangram/Medium/Pangram-Medium.svg#Pangram-Medium') format('svg'),
+    url('./Pangram/Medium/Pangram-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pangram';
+    src: url('./Pangram/Regular/Pangram-Regular.eot');
+    src: url('./Pangram/Regular/Pangram-Regular.woff2') format('woff2'),
+    url('./Pangram/Regular/Pangram-Regular.woff') format('woff'),
+    url('./Pangram/Regular/Pangram-Regular.ttf') format('truetype'),
+    url('./Pangram/Regular/Pangram-Regular.svg#Pangram-Regular') format('svg'),
+    url('./Pangram/Regular/Pangram-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zefani';
+    src: url('./Zefani/ZefaniStencil-Regular.eot');
+    src: url('./Zefani/ZefaniStencil-Regular.woff2') format('woff2'),
+    url('./Zefani/ZefaniStencil-Regular.woff') format('woff'),
+    url('./Zefani/ZefaniStencil-Regular.ttf') format('truetype'),
+    url('./Zefani/ZefaniStencil-Regular.svg#ZefaniStencil-Regular') format('svg'),
+    url('./Zefani/ZefaniStencil-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Aquatico-Regular';
+  src: url('Aquatico-Regular.eot');
+  src: url('Aquatico-Regular.woff2') format('woff2'),
+       url('Aquatico-Regular.woff') format('woff'),
+       url('Aquatico-Regular.ttf') format('truetype'),
+       url('Aquatico-Regular.svg#Aquatico-Regular') format('svg'),
+       url('Aquatico-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

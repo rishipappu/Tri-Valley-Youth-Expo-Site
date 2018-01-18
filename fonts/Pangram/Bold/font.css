@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Pangram-Bold';
+  src: url('Pangram-Bold.eot');
+  src: url('Pangram-Bold.woff2') format('woff2'),
+       url('Pangram-Bold.woff') format('woff'),
+       url('Pangram-Bold.ttf') format('truetype'),
+       url('Pangram-Bold.svg#Pangram-Bold') format('svg'),
+       url('Pangram-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Anurati-Regular';
+  src: url('Anurati-Regular.eot');
+  src: url('Anurati-Regular.woff2') format('woff2'),
+       url('Anurati-Regular.woff') format('woff'),
+       url('Anurati-Regular.ttf') format('truetype'),
+       url('Anurati-Regular.svg#Anurati-Regular') format('svg'),
+       url('Anurati-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

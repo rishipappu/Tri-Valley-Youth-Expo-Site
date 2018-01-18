@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ArgonPERSONAL-Regular';
+  src: url('ArgonPERSONAL-Regular.eot');
+  src: url('ArgonPERSONAL-Regular.woff2') format('woff2'),
+       url('ArgonPERSONAL-Regular.woff') format('woff'),
+       url('ArgonPERSONAL-Regular.ttf') format('truetype'),
+       url('ArgonPERSONAL-Regular.svg#ArgonPERSONAL-Regular') format('svg'),
+       url('ArgonPERSONAL-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

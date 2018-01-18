@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ZefaniStencil-Regular';
+  src: url('ZefaniStencil-Regular.eot');
+  src: url('ZefaniStencil-Regular.woff2') format('woff2'),
+       url('ZefaniStencil-Regular.woff') format('woff'),
+       url('ZefaniStencil-Regular.ttf') format('truetype'),
+       url('ZefaniStencil-Regular.svg#ZefaniStencil-Regular') format('svg'),
+       url('ZefaniStencil-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

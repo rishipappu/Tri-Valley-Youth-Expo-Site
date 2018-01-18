@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Aleo-Regular';
+  src: url('Aleo-Regular.eot');
+  src: url('Aleo-Regular.woff2') format('woff2'),
+       url('Aleo-Regular.woff') format('woff'),
+       url('Aleo-Regular.ttf') format('truetype'),
+       url('Aleo-Regular.svg#Aleo-Regular') format('svg'),
+       url('Aleo-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

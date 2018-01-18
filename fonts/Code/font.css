@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Code-Bold';
+  src: url('Code-Bold.eot');
+  src: url('Code-Bold.woff2') format('woff2'),
+       url('Code-Bold.woff') format('woff'),
+       url('Code-Bold.ttf') format('truetype'),
+       url('Code-Bold.svg#Code-Bold') format('svg'),
+       url('Code-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Code-Light';
+  src: url('Code-Light.eot');
+  src: url('Code-Light.woff2') format('woff2'),
+       url('Code-Light.woff') format('woff'),
+       url('Code-Light.ttf') format('truetype'),
+       url('Code-Light.svg#Code-Light') format('svg'),
+       url('Code-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

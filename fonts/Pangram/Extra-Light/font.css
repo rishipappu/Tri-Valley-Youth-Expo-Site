@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Pangram-ExtraLight';
+  src: url('Pangram-ExtraLight.eot');
+  src: url('Pangram-ExtraLight.woff2') format('woff2'),
+       url('Pangram-ExtraLight.woff') format('woff'),
+       url('Pangram-ExtraLight.ttf') format('truetype'),
+       url('Pangram-ExtraLight.svg#Pangram-ExtraLight') format('svg'),
+       url('Pangram-ExtraLight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
