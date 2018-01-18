@@ -1,3 +1,5 @@
+/* index.html */
+
 .splash {
     background-image: url('PINK_TONES_MOUNTAINS.jpg');
     background-position: center;
@@ -11,8 +13,6 @@
 }
 .title {
     font-family: 'Cheque';
-    align-items: center;
-    justify-content: center;
     text-align: center;
     font-size: 60px;
     letter-spacing: 20px;
@@ -20,4 +20,58 @@
     text-transform: uppercase;
     padding: 0;
     /* font-weight: bold; */
+}
+
+/* index.1.html */
+
+.splash1 {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.overlay {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    z-index: 1000;
+}
+.title1 {
+    font-family: 'Cheque';
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+    /* box-shadow: inset 0px -20px #444; */
+}
+
+.halfSplash {
+    border: 0px solid red;
+    height: 100vh;
+}
+
+.halfSplash:nth-child(1) {
+    background-image: url('MICROPHONE.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.halfSplash:nth-child(2) {
+    background-image: url('HUE_LAPTOP.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 760px) {
+    .halfSplash {
+        height: 50vh;
+    }
 }
