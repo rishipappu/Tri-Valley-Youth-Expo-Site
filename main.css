@@ -1,0 +1,23 @@
+.splash {
+    background-image: url('PINK_TONES_MOUNTAINS.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2em; */
+}
+.title {
+    font-family: 'Cheque';
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+    /* font-weight: bold; */
+}
