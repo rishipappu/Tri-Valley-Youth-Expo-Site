@@ -9,69 +9,113 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 2em; */
 }
-.title {
-    font-family: 'Cheque';
+
+.titleBox {
+    padding: 0;
+    margin: 0;
     text-align: center;
-    font-size: 60px;
-    letter-spacing: 20px;
+}
+
+.title {
+    font-family: 'Argon';
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 18px;
     color: #fff;
     text-transform: uppercase;
     padding: 0;
-    /* font-weight: bold; */
+    margin-top: -1em;
+    margin-left: 0.3em
 }
 
-/* index.1.html */
-
-.splash1 {
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-}
-
-.overlay {
+.navigation {
     position: absolute;
-    margin: 0;
-    padding: 0;
     height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: transparent;
-    z-index: 1000;
+    z-index: 2;
 }
-.title1 {
-    font-family: 'Cheque';
-    text-align: center;
-    font-size: 60px;
-    letter-spacing: 20px;
-    color: #fff;
-    text-transform: uppercase;
+
+.navBox {
+    list-style-type: none;
+    margin-top: 12em;
     padding: 0;
-    /* box-shadow: inset 0px -20px #444; */
+    text-align: center;
 }
 
-.halfSplash {
-    border: 0px solid red;
-    height: 100vh;
+.navLinks {
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+    font-family: "Pangram";
+    letter-spacing: 2px;
+    line-height: 2px;
 }
 
-.halfSplash:nth-child(1) {
-    background-image: url('MICROPHONE.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.halfSplash:nth-child(2) {
-    background-image: url('HUE_LAPTOP.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding: 10px;
 }
 
-@media (max-width: 760px) {
-    .halfSplash {
-        height: 50vh;
+.navLink:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navLink:before, .navLink:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #fff;
+}
+
+.navLink:before {
+  left: -2.5px;
+}
+.navLink:after {
+  right: 2.5px;
+  background: #fff;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.navLink:hover:before {
+  background: #fff;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.navLink:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+@media screen and (max-width: 760px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title {
+        font-size: 35px;
+        margin-top: -3em;
+    }
+
+    .navLinks {
+        display: block;
+        font-size: 16px;
+    }
+    .navBox {
+        margin-top: 17em
     }
 }
