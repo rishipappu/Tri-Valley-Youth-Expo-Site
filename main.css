@@ -20,13 +20,17 @@
 .title {
     font-family: 'Argon';
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 18px;
     color: #fff;
     text-transform: uppercase;
     padding: 0;
     margin-top: -1em;
     margin-left: 0.3em
+}
+
+.noLetterSpace {
+    letter-spacing: 0;
 }
 
 .navigation {
@@ -69,34 +73,34 @@
 }
 
 .navLink:before, .navLink:after {
-  content: '';
-  position: absolute;
-  width: 0%;
-  height: 1px;
-  top: 50%;
-  margin-top: -0.5px;
-  background: #fff;
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    top: 60%;
+    margin-top: -0.5px;
+    background: #fff;
 }
 
 .navLink:before {
-  left: -2.5px;
+    left: -2.5px;
 }
 .navLink:after {
-  right: 2.5px;
-  background: #fff;
-  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+    right: 2.5px;
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .navLink:hover:before {
-  background: #fff;
-  width: 100%;
-  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+    background: #fff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
 .navLink:hover:after {
-  background: transparent;
-  width: 100%;
-  transition: 0s;
+    background: transparent;
+    width: 100%;
+    transition: 0s;
 }
 
 @media screen and (max-width: 760px) {
@@ -118,4 +122,11 @@
     .navBox {
         margin-top: 17em
     }
+}
+
+.aboutSection {
+    height: 60vh;
+    font-family: "Pangram";
+    padding: 2em;
+    background: #f7f7f7;
 }
