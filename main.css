@@ -1,5 +1,10 @@
-/* index.html */
-
+.abbreviatedLogo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2000;
+    width: 4vw;
+}
 .splash {
     background-image: url('PINK_TONES_MOUNTAINS.jpg');
     background-position: center;
@@ -26,7 +31,6 @@
     text-transform: uppercase;
     padding: 0;
     margin-top: -1em;
-    margin-left: 0.3em
 }
 
 .noLetterSpace {
@@ -45,7 +49,7 @@
 
 .navBox {
     list-style-type: none;
-    margin-top: 12em;
+    margin-top: 17em;
     padding: 0;
     text-align: center;
 }
@@ -106,13 +110,15 @@
 
 .aboutSection {
     font-family: "Pangram";
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
+    /* background: #fff; */
     color: #444;
+    padding-bottom: 2em;
 }
 
 .locationDate {
     text-align: center;
-    margin-top: 3em;
+    padding-top: 2em;
 }
 
 #countDown {
@@ -143,35 +149,47 @@
     line-height: 40px;
 }
 
-.infoBoxTitle:after {
-    content: "";
-    height: 2px;
-    background: #ccc;
-    left: 50%;
-    bottom: 0;
-    width: 10px;
-}
-
 .infoBox:nth-child(3) {
     border-right: none;
 }
+
+.infoIcon {
+    margin-top: 1em;
+    color: #fd1d1d;
+}
+
+/* .infoBoxRule {
+    height: 2px;
+    width: 60px;
+    border-radius: 40px;
+    background: #fd1d1d;
+    margin: 1em auto 2em auto;
+} */
 
 @media screen and (max-width: 760px) {
     .title {
         font-size: 30px;
     }
+    .abbreviatedLogo {
+        width: 15vw;
+    }
     .infoBox {
         border: none;
+        border-radius: 40px;
+        box-shadow: 2px 2px 10px #ccc;
+        margin-bottom: 10px;
+        margin-right: 1em;
+        margin-left: 1em;
     }
     .infoBoxes {
-        margin-left: -2em;
+        margin-left: -1em;
     }
 }
 
 @media screen and (max-width: 450px) {
     .title {
-        font-size: 35px;
-        margin-top: -3em;
+        font-size: 40px;
+        margin-top: -4.5em;
     }
 
     .navLinks {
@@ -183,6 +201,15 @@
     }
 }
 
-.infoIcon {
-    margin-top: 1em;
+.footer {
+    background: #833ab4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 1em;
+    color: #fff;
+}
+
+.logoTitle {
+    width: 80%;
+    margin-top: -5em;
 }
