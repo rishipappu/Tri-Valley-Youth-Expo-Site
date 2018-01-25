@@ -80,6 +80,7 @@
     top: 60%;
     margin-top: -0.5px;
     background: #fff;
+    border-radius: 20px;
 }
 
 .navLink:before {
@@ -103,9 +104,67 @@
     transition: 0s;
 }
 
+.aboutSection {
+    font-family: "Pangram";
+    background: #f7f7f7;
+    color: #444;
+}
+
+.locationDate {
+    text-align: center;
+    margin-top: 3em;
+}
+
+#countDown {
+    text-align: center;
+    line-height: 50px;
+}
+
+.infoBoxes {
+    margin-top: 2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+
+.infoBox {
+    text-align: center;
+    border-right: 2px solid #ccc;
+    margin: none;
+    padding: 2em;
+}
+
+.infoBoxTitle {
+    line-height: 40px;
+}
+
+.infoBoxTitle:after {
+    content: "";
+    height: 2px;
+    background: #ccc;
+    left: 50%;
+    bottom: 0;
+    width: 10px;
+}
+
+.infoBox:nth-child(3) {
+    border-right: none;
+}
+
 @media screen and (max-width: 760px) {
     .title {
         font-size: 30px;
+    }
+    .infoBox {
+        border: none;
+    }
+    .infoBoxes {
+        margin-left: -2em;
     }
 }
 
@@ -124,9 +183,6 @@
     }
 }
 
-.aboutSection {
-    height: 60vh;
-    font-family: "Pangram";
-    padding: 2em;
-    background: #f7f7f7;
+.infoIcon {
+    margin-top: 1em;
 }
