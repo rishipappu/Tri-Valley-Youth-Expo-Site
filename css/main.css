@@ -6,7 +6,7 @@
     width: 4vw;
 }
 .splash {
-    background-image: url('PINK_TONES_MOUNTAINS.jpg');
+    background-image: url('../imgs/PINK_TONES_MOUNTAINS.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
