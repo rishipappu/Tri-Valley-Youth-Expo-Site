@@ -111,6 +111,7 @@
     transition: 0s;
 }
 
+
 .aboutSection {
     font-family: "Pangram";
     /* background: #f7f7f7; */
@@ -202,6 +203,9 @@
     .navBox {
         margin-top: 17em
     }
+    .logoTitle {
+        width: 80%;
+    }
 }
 
 .footer {
@@ -213,11 +217,60 @@
 }
 
 .logoTitle {
-    width: 80%;
+    width: 60%;
     margin-top: -5em;
 }
 
-a {
+.footerLogoBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerLogo {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+.footerInfo {
+    margin: auto;
+    display: block;
+}
+
+.sponsorList {
+    list-style-type: none;
+    list-style-position: inside;
+    font-family: "Pangram";
+}
+
+.sponsorBox {
+    text-align: center;
+}
+
+.sponsorTitle {
+    font-size: 20px;
+}
+
+.sponsorLink {
+    color: #fff;
+}
+
+.sponsorTitle {
+    color: #fff;
+}
+
+.sponsorLogo {
+    width: 7vw;
+    margin: 1em;
+    display: inline-block;
+}
+
+.sponsorLogoLink:hover, .sponsorLogoLink:focus {
+    outline: none;
+    text-decoration: none;
+}
+/* a {
   color: white;
   text-decoration: none;
   -webkit-transition: color 2s ease-out;
@@ -231,4 +284,4 @@ a:hover {
   -moz-transition: color 2s ease-out;
   -o-transition: color 2s ease-out;
   transition: color 2s ease-out;
-}
+} */
