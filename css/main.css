@@ -18,6 +18,10 @@
 /* Create the parallax scrolling effect */
     background-attachment: fixed;
 }
+#contact {
+  padding-top: 20px;
+  padding-bottom: 20px
+}
 #contact a {
   text-decoration: none!important;
   color: white;
@@ -25,6 +29,9 @@
 #contact a:hover {
   text-decoration: none!important;
   color: white;
+}
+.titleBox img {
+  filter: brightness(0) invert(1);
 }
 .titleBox {
     padding: 0;
@@ -132,6 +139,13 @@
     padding-top: 2em;
 }
 
+#contact h5 {
+  letter-spacing: 1.4px;
+  font-weight: 700;
+  font-family: "Pangram"!important;
+  -webkit-font-smoothing: antialiased;
+}
+
 #countDown {
     text-align: center;
     line-height: 50px;
@@ -216,10 +230,11 @@
 }
 
 .footer {
-    background: #833ab4; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 1em;
+  background: #1D2B64;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ffd27f, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ffd27f, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 50px 20px 50px 20px;
     color: #fff;
 }
 
