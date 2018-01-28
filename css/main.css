@@ -18,7 +18,14 @@
 /* Create the parallax scrolling effect */
     background-attachment: fixed;
 }
-
+#contact a {
+  text-decoration: none!important;
+  color: white;
+}
+#contact a:hover {
+  text-decoration: none!important;
+  color: white;
+}
 .titleBox {
     padding: 0;
     margin: 0;
