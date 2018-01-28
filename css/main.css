@@ -33,26 +33,24 @@
     text-decoration: none;
     color: white;
 }
-#join-slack {
+#joinSlack {
     border: 2.8px solid white;
-    padding: 4px 9px 4px 9px;
+    padding: 4px 9px;
     letter-spacing: 0.4px;
 }
-#submit-slack {
+#submitSlack {
     font-weight: 500;
     transition: all ease-in-out 0.2s;
     color: white;
-    /* font-weight: bold; */
     letter-spacing: 1.4px;
     text-transform: uppercase;
     border: 2.8px solid white;
     background-color: transparent;
     padding: 4px 9px 4px 9px
 }
-#submit-slack:hover{
+#submitSlack:hover{
     transition: all ease-in-out 0.2s;
     color: black;
-    /* font-weight: bold; */
     letter-spacing:1.4px;
     text-transform: uppercase;
     border: 2.8px solid white;
@@ -87,7 +85,7 @@
 
 .navigation {
     font-weight: bold;
-    text-transform: uppercase!important;
+    text-transform: uppercase;
     position: absolute;
     height: 100vh;
     width: 100vw;
@@ -162,8 +160,6 @@
 
 .aboutSection {
     font-family: "Pangram";
-    /* background: #f7f7f7; */
-    /* background: #fff; */
     color: #444;
     padding-bottom: 2em;
 }
@@ -224,14 +220,6 @@
     font-weight: 500;
 }
 
-/* .infoBoxRule {
-height: 2px;
-width: 60px;
-border-radius: 40px;
-background: #fd1d1d;
-margin: 1em auto 2em auto;
-} */
-
 @media screen and (max-width: 760px) {
     .title {
         font-size: 30px;
@@ -248,11 +236,13 @@ margin: 1em auto 2em auto;
 @media screen and (max-width: 350px) {
     .infoBox {
         border: none;
-        /* border-radius: 40px; */
         box-shadow: 2px 2px 10px #ccc;
         margin-bottom: 10px;
         margin-right: 1em;
         margin-left: 1em;
+    }
+    #joinSlack {
+        width: 20vw;
     }
 }
 @media screen and (max-width: 450px) {
@@ -277,7 +267,6 @@ margin: 1em auto 2em auto;
     background: #2b5876;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     padding: 50px 20px 50px 20px;
     color: #fff;
 }
@@ -286,68 +275,3 @@ margin: 1em auto 2em auto;
     width: 60%;
     margin-top: -5em;
 }
-
-.footerLogoBox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footerLogo {
-    width: 30%;
-    margin: 0 auto;
-    display: block;
-}
-
-.footerInfo {
-    margin: auto;
-    display: block;
-}
-
-.sponsorList {
-    list-style-type: none;
-    list-style-position: inside;
-    font-family: "Pangram";
-}
-
-.sponsorBox {
-    text-align: center;
-}
-
-.sponsorTitle {
-    font-size: 20px;
-}
-
-.sponsorLink {
-    color: #fff;
-}
-
-.sponsorTitle {
-    color: #fff;
-}
-
-.sponsorLogo {
-    width: 7vw;
-    margin: 1em;
-    display: inline-block;
-}
-
-.sponsorLogoLink:hover, .sponsorLogoLink:focus {
-    outline: none;
-    text-decoration: none;
-}
-/* a {
-color: white;
-text-decoration: none;
--webkit-transition: color 2s ease-out;
--moz-transition: color 2s ease-out;
--o-transition: color 2s ease-out;
-transition: color 2s ease-out;}
-a:hover {
-color: #833ab4;
-text-decoration: none;
--webkit-transition: color 2s ease-out;
--moz-transition: color 2s ease-out;
--o-transition: color 2s ease-out;
-transition: color 2s ease-out;
-} */
