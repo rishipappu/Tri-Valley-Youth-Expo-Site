@@ -6,7 +6,11 @@
     width: 4vw;
 }
 .splash {
-    background-image: url('../imgs/PINK_TONES_MOUNTAINS.jpg');
+  background:
+    /* top, transparent red, faked with gradient */
+     linear-gradient( rgba(255,0,169, 0.444), rgba(102, 125, 182, 0.3)),
+    /* bottom, image */
+     url('../imgs/PINK_TONES_MOUNTAINS.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,6 +59,8 @@
 }
 
 .navigation {
+  font-weight: bold;
+  text-transform: uppercase!important;
     position: absolute;
     height: 100vh;
     width: 100vw;
