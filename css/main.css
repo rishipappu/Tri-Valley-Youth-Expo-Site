@@ -8,7 +8,7 @@
 .splash {
   background:
     /* top, transparent red, faked with gradient */
-     linear-gradient( rgba(255,0,169, 0.444), rgba(102, 125, 182, 0.3)),
+     /* linear-gradient( rgba(255,0,169, 0.444), rgba(102, 125, 182, 0.3)), */
     /* bottom, image */
      url('../imgs/PINK_TONES_MOUNTAINS.jpg');
     background-position: center;
@@ -40,12 +40,24 @@
   letter-spacing: 0.4px;
 }
 #submit-slack {
+  font-weight: 500;
+  transition: all ease-in-out 0.2s;
   color: white;
   /* font-weight: bold; */
-  letter-spacing: 2.4px;
+  letter-spacing: 1.4px;
   text-transform: uppercase;
   border: 2.8px solid white;
   background-color: transparent;
+  padding: 4px 9px 4px 9px
+}
+#submit-slack:hover{
+  transition: all ease-in-out 0.2s;
+  color: black;
+  /* font-weight: bold; */
+  letter-spacing:1.4px;
+  text-transform: uppercase;
+  border: 2.8px solid white;
+  background-color: white;
   padding: 4px 9px 4px 9px
 }
 .titleBox img {
@@ -116,12 +128,13 @@
 .navLink:before, .navLink:after {
     content: '';
     position: absolute;
+    display: inline;
     width: 0%;
     height: 1px;
     top: 60%;
-    margin-top: -0.5px;
+    margin-top: 12.5px;
     background: #fff;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .navLink:before {
@@ -156,6 +169,7 @@
 
 .locationDate {
     text-align: center;
+    line-height: 170%;
     padding-top: 2em;
 }
 
@@ -218,19 +232,22 @@
     .abbreviatedLogo {
         width: 15vw;
     }
-    .infoBox {
-        border: none;
-        border-radius: 40px;
-        box-shadow: 2px 2px 10px #ccc;
-        margin-bottom: 10px;
-        margin-right: 1em;
-        margin-left: 1em;
-    }
     .infoBoxes {
         margin-left: -1em;
     }
 }
 
+
+@media screen and (max-width: 350px) {
+  .infoBox {
+      border: none;
+      /* border-radius: 40px; */
+      box-shadow: 2px 2px 10px #ccc;
+      margin-bottom: 10px;
+      margin-right: 1em;
+      margin-left: 1em;
+  }
+}
 @media screen and (max-width: 450px) {
     .title {
         font-size: 40px;
@@ -250,9 +267,9 @@
 }
 
 .footer {
-  background: #1D2B64;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #ffd27f, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #ffd27f, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     padding: 50px 20px 50px 20px;
     color: #fff;
