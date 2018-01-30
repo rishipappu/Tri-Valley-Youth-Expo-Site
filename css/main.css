@@ -256,13 +256,23 @@
         margin-top: -4.5em;
     }
 
-    .navLinks {
+    /* .hackTitle {
+        font-size: 40px;
+        margin-top: -4.5em;
+        margin-bottom: 2em;
+    }
+
+    .hackNavLinks {
+        display: block !important;
+        font-size: 16px;
+    }
+    .hackNavLinks {
         display: block;
         font-size: 16px;
     }
-    .navBox {
+    .hackNavBox {
         margin-top: 17em
-    }
+    } */
     .logoTitle {
         width: 80%;
     }
@@ -274,9 +284,160 @@
     background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 50px 20px 50px 20px;
     color: #fff;
+    margin: 0;
 }
 
 .logoTitle {
     width: 60%;
     margin-top: -5em;
+}
+
+.hackSplash {
+    background: url('../imgs/DARK_GRADIENT_BUILDING.jpg');
+    /* top, transparent red, faked with gradient */
+    /* linear-gradient( rgba(255,0,169, 0.444), rgba(102, 125, 182, 0.3)), */
+    /* bottom, image */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+}
+ .hackTitle {
+    font-family: 'Argon';
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+    margin-top: -1em;
+}
+
+/*
+.hackNavigation {
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.hackNavBox {
+    list-style-type: none;
+    margin-top: 17em;
+    padding: 0;
+    text-align: center;
+}
+
+.hackNavLinks {
+    display: inline-block;
+    margin: 20px;
+    font-size: 18px;
+    font-family: "Pangram";
+    letter-spacing: 2px;
+    line-height: 2px;
+}
+
+.hackNavLink {
+    color: #4e4376;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    padding: 10px;
+}
+
+.hackNavLink:hover {
+    color: #4e4376;
+    text-decoration: none;
+}
+
+.hackNavLink:before, .hackNavLink:after {
+    content: '';
+    position: absolute;
+    display: inline;
+    width: 0%;
+    height: 1px;
+    top: 60%;
+    margin-top: 12.5px;
+    background: #4e4376;
+    border-radius: 10px;
+}
+
+.hackNavLink:before {
+    left: -2.5px;
+}
+.hackNavLink:after {
+    right: 2.5px;
+    background: #4e4376;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.hackNavLink:hover:before {
+    background: #4e4376;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.hackNavLink:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+} */
+
+.makeBig {
+    font-size: 1.39em;
+}
+
+.hackDescription {
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 2em;
+}
+
+.descriptionQuestions {
+    margin: 0;
+    color: #fff;
+    font-family: 'Pangram';
+}
+
+.descriptionAnswer {
+    margin: 0 0 4em 0;
+    color: #fff;
+    font-family: 'Pangram';
+}
+
+.sectionTitle {
+    font-family: 'Pangram';
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.prizeList {
+    list-style-type: none;
+    list-style-position: inside;
+    text-align: center;
+    margin: auto;
+    font-family: "Pangram";
+    color: #fff;
+}
+
+.prize {
+    margin: 1em;
+}
+
+.underLine {
+    border-bottom: 1px dotted #fff;
 }
