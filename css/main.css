@@ -5,6 +5,11 @@
     z-index: 2000;
     width: 4vw;
 }
+
+.center {
+    text-align: center;
+}
+
 .splash {
     background: url('../imgs/PINK_TONES_MOUNTAINS.jpg');
     /* top, transparent red, faked with gradient */
