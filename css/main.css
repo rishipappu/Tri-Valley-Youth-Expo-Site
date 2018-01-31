@@ -292,9 +292,6 @@
 
 .hackSplash {
     background: url('../imgs/DARK_GRADIENT_BUILDING.jpg');
-    /* top, transparent red, faked with gradient */
-    /* linear-gradient( rgba(255,0,169, 0.444), rgba(102, 125, 182, 0.3)), */
-    /* bottom, image */
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -451,4 +448,62 @@
     opacity: 0.8;
     text-decoration: none;
     color: #fff;
+}
+.botbSplash {
+    background: url('../imgs/MUSICA.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+}
+
+.bandSection {
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0;
+}
+
+.bandImage {
+    padding: 5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bandImage:nth-child(1) {
+    background-image: url('../imgs/bandimgs/Carpool_Tunnel.jpg');
+}
+.bandImage:nth-child(4) {
+    background-image: url('../imgs/bandimgs/Unpopular_Opinion.jpg');
+}
+.bandImage:nth-child(5) {
+    background-image: url('../imgs/bandimgs/Grandmas_Cat_Logo.png');
+}
+.bandImage:nth-child(8) {
+    background-image: url('../imgs/bandimgs/Novicain_Road.jpg');
+}
+
+.bandDescription {
+    color: #4e4376;
+    background: #fff;
+    padding: 5em;
+}
+
+.bandSocial {
+    margin-right: 1em;
+    color: #4e4376;
+}
+
+.bandSocial:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    color: #4e4376;
 }
