@@ -531,6 +531,9 @@
 .bandImage:nth-child(9) {
     background-image: url('../imgs/bandimgs/Charge.jpg');
 }
+.bandImage:nth-child(12) {
+    background-image: url('../imgs/bandimgs/six_thirty(2).jpg');
+}
 
 .bandDescription {
     color: #4e4376;
