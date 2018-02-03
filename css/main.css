@@ -249,6 +249,7 @@
     #joinSlack {
         width: 20vw;
     }
+
 }
 @media screen and (max-width: 450px) {
     .title {
@@ -637,11 +638,14 @@
     text-align: center;
     color: #fff;
     font-family: "Pangram";
+    font-size: 4vh;
 }
 
 .sponsorSection {
     color: #fff;
     font-family: "Pangram";
+    padding: 0;
+    margin: 0;
 }
 
 .contactNikolai {
@@ -658,27 +662,50 @@
 }
 
 .sponsorTiers {
-    padding: 2em 10em;
+    padding: 2em 20px;;
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+}
+
+#platinumBackground {
+    background: #E5E4E2;
+    padding: 1em;
+    color: #444;
+}
+#goldBackground {
+    background: gold;
+    padding: 1em;
+}
+#silverBackground {
+    background: silver;
+    padding: 1em;
+}
+.sponsorImages {
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.backgroundFill {
     background: #2b5876;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.tierTitle {
-    text-align: center;
-    background: gold;
-    padding: 1em;
+.noMargin {
+    margin: 0;
 }
 
-.tierCategories {
-    padding: 1em;
+.noPadding {
+    padding: 0;
 }
 
-.category {
-    padding: 0 1em 1em 1em;
-    border-bottom: 1px solid #fff;
-}
-
-.category:last-child {
-    border-bottom: none;
+.sponsorTitle {
+    padding: 2em 0;
 }
